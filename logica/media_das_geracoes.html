@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var inicio = 1500;
+	var atual = 2022;
+	var anosPassados = (atual - inicio);
+	var media = (anosPassados / 28);
+
+	mostra("Já houve um total de " + Math.round(media) + " de gerações no Brasil desde sua descoberta pelos portugueses.");
+
+</script>	
