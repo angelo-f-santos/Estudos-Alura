@@ -1,0 +1,19 @@
+Hexadecimal
+
+0 = ausencia
+F = maximo
+
+preto = #000000
+
+branco = #FFFFFF
+
+dois primeiro sao o vermelhor, os dois segundos sao o verde e os dois ultimos sao o azul.
+
+RGB
+
+0 = minimo
+255 = maximo
+
+preto = rgb(0,0,0)
+
+branco = rgb(255,255,255)
